@@ -13,3 +13,31 @@
 |:---:|:---
 | `REGEX` | 正規表現
 
+## dbwrite
+YouTube のタイムスタンプと感想をデータベースに保存するプラグイン
+
+### Usage
+``` md
+#dbwrite(DATABASE, TABLE)
+    ```
+
+|引数|説明
+|:---:|:---
+| `DATABASE` | 接続先のデータベース名
+| `TABLE` | 接続先のテーブル名
+
+## dbread
+データベースに保存された YouTube のタイムスタンプと感想を表示するプラグイン
+
+### Usage
+``` md
+#dbread(DATABASE, TABLE)
+```
+
+|引数|説明
+|:---:|:---
+| `DATABASE` | 接続先のデータベース名
+| `TABLE` | 接続先のテーブル名
+
+
+
