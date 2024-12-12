@@ -19,7 +19,7 @@ YouTube のタイムスタンプと感想をデータベースに保存するプ
 ### Usage
 ``` md
 #dbwrite(DATABASE, TABLE)
-    ```
+```
 
 |引数|説明
 |:---:|:---
