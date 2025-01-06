@@ -18,6 +18,8 @@ Twitter の埋め込みタイムラインを Wiki に表示できるようにす
 
 このコードは [mgmn/pukiwiki-twitter_timeline.inc.php - GitHub](https://github.com/mgmn/pukiwiki-twitter_timeline.inc.php) から取得し、本プロジェクトに組み込んだものです。
 
+### License
+
 MIT license
 
 ### Usage
