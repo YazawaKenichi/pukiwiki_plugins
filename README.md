@@ -39,5 +39,23 @@ YouTube のタイムスタンプと感想をデータベースに保存するプ
 | `DATABASE` | 接続先のデータベース名
 | `TABLE` | 接続先のテーブル名
 
+## twitter_timeline
+Twitter の埋め込みタイムラインを Wiki に表示できるようにするプラグイン
+
+このコードは [mgmn/pukiwiki-twitter_timeline.inc.php - GitHub](https://github.com/mgmn/pukiwiki-twitter_timeline.inc.php) から取得し、本プロジェクトに組み込んだものです。
+
+MIT license
+
+### Usage
+``` md
+#twitter_timeline(ID, [WIDTH], [HEIGHT], [THEME], [LANG])
+```
+
+|引数|説明
+|:---:|:---
+| `ID` | 接続先のデータベース名
+| `WIDTH`, `HEIGHT` | 横幅 と 高さ [px]
+| `THEME` | テーマ ( `light` / `dark` )
+| `LANG` | 言語 ( `ja` / `en` / `zh-cn` など )
 
 
